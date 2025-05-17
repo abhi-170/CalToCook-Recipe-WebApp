@@ -1,3 +1,4 @@
+// download function
 function downloadFile(url, callback) {
     console.log(`Start downloading from ${url}`);
     setTimeout(() => {
@@ -6,7 +7,7 @@ function downloadFile(url, callback) {
         callback(data);
     }, 2500)
 }
-
+// write function
 function writeFile(data, filename, callback) {
     console.log(`${data} is start writing in ${filename}`);
     setTimeout(() => {
@@ -15,7 +16,7 @@ function writeFile(data, filename, callback) {
         callback(updatedFileName);
     }, 2500)
 }
-
+// upload function
 function uploadFile(filename, url, callback) {
     console.log(`${filename} is start uploading at ${url}`);
     setTimeout(() => {
@@ -25,6 +26,7 @@ function uploadFile(filename, url, callback) {
     }, 5000)
 }
 
+// chaining
 downloadFile("https://downloadlink.com/", (data) => {
     writeFile(data, "myFile.txt", (filename) => {
         uploadFile(filename, "https://uploadlink.com/", (data) => {
