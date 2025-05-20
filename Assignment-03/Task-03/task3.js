@@ -1,3 +1,4 @@
+// download function
 function downloadFile(url) {
     console.log(`Start downloading from ${url}`);
     return new Promise((resolve, reject) => {
@@ -8,7 +9,7 @@ function downloadFile(url) {
         }, 2500)
     })
 }
-
+// write function
 function writeFile(data, filename) {
     console.log(`${data} is start writing in ${filename}`);
     return new Promise((resolve, reject) => {
@@ -19,7 +20,7 @@ function writeFile(data, filename) {
         }, 2500)
     })
 }
-
+// upload function
 function uploadFile(filename, url) {
     console.log(`${filename} is start uploading at ${url}`);
     return new Promise((resolve, reject) => {
@@ -31,6 +32,7 @@ function uploadFile(filename, url) {
     })
 }
 
+// chaining
 async function start() {
     const data = await downloadFile("https://downloadlink.com/");
     const filename = await writeFile(data, "myFile.txt");
