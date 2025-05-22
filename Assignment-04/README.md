@@ -33,7 +33,7 @@
 ### Installation
 
 ```bash
-git clone #
+git clone https://github.com/abhi-170/Assignments.git
 cd caltocook
 npm install
 npm run dev
