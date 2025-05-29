@@ -1,0 +1,136 @@
+
+.navbar-wrapper {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    border-color: #e5e7eb;
+    padding: 10px 24px;
+}
+
+.navbar-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-right: 12px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    order: 2;
+}
+
+.notification-btn {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.notification-btn:hover {
+    background-color: #d1d5db;
+}
+
+.profile-btn {
+    background-color: #f59e0b;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.profile-btn:hover {
+    background-color: #d97706;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 8px;
+    z-index: 10;
+    margin-top: 16px;
+    width: 192px;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    padding: 4px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    display: block;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f3f4f6;
+}
+
+.navbar-links {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    order: 1;
+}
+.navbar-link{
+    text-decoration: none;
+}
+.navbar-link.active{
+    color: #f59e0b;
+}
+
+@media (min-width: 1024px) {
+    .navbar-links {
+        display: flex;
+        width: auto;
+    }
+
+    .navbar-list {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-weight: 500;
+        font-size: large;
+    }
+
+    .navbar-link {
+        padding: 8px 0;
+        cursor: pointer;
+        color: black;
+    }
+
+    .navbar-link:hover {
+        color: #f59e0b;
+        background-color: transparent;
+    }
+}

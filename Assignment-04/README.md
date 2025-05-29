@@ -1,12 +1,53 @@
-# React + Vite
+# Group-05
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍽️ CalToCook – Make Your Own!
 
-Currently, two official plugins are available:
+**CalToCook: "Calories To Cook"** is a modern React-based food recipe web application that allows users to explore various delicious dishes with calorie details, preparation time, and cooking instructions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🍕 Interactive recipe cards with calorie and serving info
+- ⭐ User ratings and reviews
+- ⏱️ Estimated cooking time and difficulty
+- 🍔 Cuisine and meal type
+- 📋 Click on **card** to reveal the full ingredient list and to view detailed instructions.
+- 🚀 Smooth hover transitions on cards and buttons for enhanced UI/UX
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Preview
+
+## 1. HOME PAGE:
+
+![home page](./public/homepage.png)
+
+## 2. FOOTER: 
+
+![footer](./public/footer.png)
+
+## 3. PAGINATION: 
+
+![pagination](./public/pagination.png)
+
+## 4. CARD'S DETAILED VIEW:
+
+![card's detail view](./public/cardDetails.png)
+![card's detail view](./public/cradDetails2.png)
+
+## 5. ROUTING:
+
+![about](./public/about.png)
+![contact](./public/contact.png)
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+```bash
+git clone "link"
+cd caltocook
+npm install
+npm run dev
