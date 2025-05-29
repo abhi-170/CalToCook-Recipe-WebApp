@@ -15,7 +15,7 @@ function Navbar() {
         <div className="navbar-wrapper">
             <div className="navbar-inner">
                 <div className="navbar-logo">
-                    <img src="/logo2.png" className="logo-img" alt="Logo" />
+                    <img src="/logo.png" className="logo-img" alt="Logo" />
                 </div>
 
                 <div className="navbar-links">

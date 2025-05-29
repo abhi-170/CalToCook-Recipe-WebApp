@@ -66,12 +66,12 @@ function Footer() {
                     Copyright 2025 @ calToCook. All Rights Reserved.
                 </div>
                 <div id="socialApp" className='footer-social'>
-                    <a className='footer-btn' href="https://www.facebook.com/"><FaFacebookF /></a>
-                    <a className='footer-btn' href="https://x.com/"><FaSquareXTwitter /></a>
-                    <a className='footer-btn' href="https://www.youtube.com/"><TfiYoutube /></a>
-                    <a className='footer-btn' href="https://www.google.com/"><FaGooglePlusG /></a>
-                    <a className='footer-btn' href="https://www.pinterest.com/"><FaPinterest /></a>
-                    <a className='footer-btn' href="https://www.instagram.com/"><TiSocialInstagram /></a>
+                    <Link className='footer-btn' to="https://www.facebook.com/"><FaFacebookF /></Link>
+                    <Link className='footer-btn' to="https://x.com/"><FaSquareXTwitter /></Link>
+                    <Link className='footer-btn' to="https://www.youtube.com/"><TfiYoutube /></Link>
+                    <Link className='footer-btn' to="https://www.google.com/"><FaGooglePlusG /></Link>
+                    <Link className='footer-btn' to="https://www.pinterest.com/"><FaPinterest /></Link>
+                    <Link className='footer-btn' to="https://www.instagram.com/"><TiSocialInstagram /></Link>
                 </div>
             </div>
 
