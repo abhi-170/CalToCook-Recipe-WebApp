@@ -1,0 +1,162 @@
+.recipeContainer {
+    position: relative;
+    width:20%;
+    margin: 40px 5px;
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgb(242, 249, 252);
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 8px rgb(0, 0, 0, 0.8);
+    transition: 0.3s ease-in-out;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+}
+
+.tagContainer {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tag {
+    background-color: rgba(249, 251, 255, 0.7);
+    color: #111;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tag:hover {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+
+.recipeImage {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+.recipeDetails {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-sizing: border-box;
+}
+
+.recipeName {
+    color: #000;
+    font-weight: bold;
+    font-size: 14.5px;
+}
+
+.recipeName:hover {
+    text-shadow: 1px 1px 2px rgb(80, 80, 80, 0.5);
+}
+
+.recipeReview {
+    display: flex;
+    margin-top: 6px;
+    gap: 2px;
+}
+
+.rating {
+    background-color: #267e3e;
+    color: #ffffff;
+    font: bold;
+    padding: 0 4px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.rating:hover {
+    background-color: #1c5f2e;
+}
+
+.review {
+    color: #444;
+}
+
+.cookingDetails {
+    display: flex;
+    margin-top: 6px;
+    gap: 4px;
+}
+
+.difficulty {
+    color: #444;
+}
+
+.cookingTime {
+    background-color: #0077cc;
+    color: #ffffff;
+    font: bold;
+    padding: 1px 4px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cookingTime:hover {
+    background-color: #005fa3;
+}
+
+.recipeTypeDetails {
+    color: #111;
+    display: flex;
+    margin-top: 6px;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .recipeContainer {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recipeContainer {
+        width: 90%;
+    }
+
+    .recipeImage {
+        height: 12rem;
+    }
+
+    .recipeName {
+        font-size: 13.5px;
+    }
+
+    .tag {
+        font-size: 11px;
+        padding: 3px 6px;
+    }
+
+    .cookingTime, .rating {
+        font-size: 12px;
+        padding: 0 3px;
+    }
+}

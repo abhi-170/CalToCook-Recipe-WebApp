@@ -1,0 +1,49 @@
+.about-container {
+  background-color: #f7fafc; 
+  min-height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about-content {
+  max-width: 64rem; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;  
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .about-content {
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-content {
+    padding-left: 2rem; 
+    padding-right: 2rem;
+  }
+}
+
+.about-title {
+  font-size: 1.875rem; 
+  font-weight: 700;    
+  color: #2d3748;      
+  margin-bottom: 2rem; 
+}
+
+.about-text {
+  font-size: 1.125rem; 
+  color: #4a5568;      
+  margin-bottom: 1rem; 
+}
+
+.about-text:last-child {
+  margin-bottom: 0;
+}
+
+.about-text.mt {
+  margin-top: 2rem; 
+}
